@@ -1,5 +1,6 @@
- var domparser=new DOMParser();
+
       function loadimage(image){
+        var domparser=new DOMParser();
         $.ajax({
           url: "https://cors-anywhere.herokuapp.com/https://www.google.com.ua/search?source=lnms&sa=X&gbv=1&tbm=isch&q="+image,
           success: function(result) {
